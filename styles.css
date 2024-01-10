@@ -1,0 +1,73 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.title {
+    text-align: center;
+    color: #333;
+}
+
+.input-section, .output-section {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    box-sizing: border-box; /* Add this line */
+}
+
+.input-section h2, .output-section h2 {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%; /* Full width of the parent container */
+    height: 150px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    resize: vertical;
+    box-sizing: border-box; /* Include padding and border in the width and height */
+}
+
+textarea#equation-input {
+    background-color: #fafafa;
+}
+
+textarea#latex-output {
+    background-color: #eef;
+}
+
+.equation-editor {
+    border: 1px solid #ccc;
+    min-height: 100px;
+    width: 100%; /* Set width to 100% */
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-sizing: border-box; /* Include padding and border in the width and height */
+}
+
+
+
+.latex-output {
+    white-space: pre-wrap; /* Ensures that the output respects line breaks and spaces */
+}
+
+/* ... existing styles ... */

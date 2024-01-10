@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>TeXlator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="TeXlator.ico">
+    <!-- Load MathQuill CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mathquill/0.10.1/mathquill.min.css" />
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">TeXlator</h1>
+        <h2 class="title">Mathematical Expression To LaTeX Translator</h2>
+        
+        <!-- MathQuill Equation Editor Section -->
+        <div class="input-section">
+            <h2>Enter Mathematical Expression</h2>
+            <div id="equation-editor" class="equation-editor"></div>
+        </div>
+        
+        <!-- LaTeX Code Output Section -->
+        <div class="output-section">
+            <h2>LaTeX Code Output</h2>
+            <div id="latex-output" class="latex-output"></div>
+        </div>
+    </div>
+
+    <!-- Include jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Load MathQuill JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathquill/0.10.1/mathquill.min.js"></script>
+    <!-- Load MathJax -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js" integrity="sha512-+fLtP0p9H3OE0BTH5GwZHU6l5p4aMXJdJrY4OeV7dRBE5iX1Dz4tR+aY4I7kGgK5r2HoZm6Zy0B/qwLgRiOR/Q==" crossorigin="anonymous"></script>
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
